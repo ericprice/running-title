@@ -33,7 +33,9 @@ function main(color) {
 
     // Car crash on last page
     if (i == (pages.length - 1)) {
-      addLetters(i, j);
+      for (j; j < titleText.length; j++) {
+        addLetters(i, j);
+      }
     }
 
     // Loop through the text multiple times, if necessary, to fill all pages
