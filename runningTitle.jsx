@@ -4,7 +4,8 @@ var doc = app.activeDocument,
     titleText = prompt(promptText, '', promptText).toLowerCase().split(''),
     programName = 'curatorialstudies',
     letterDirPrefix = 'letters',
-    letterFileFormat = 'ai';
+    letterFileFormat = 'ai',
+	test = true;
 
 function isEven(n) {
   return n % 2 === 0;
